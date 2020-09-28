@@ -36,7 +36,8 @@ namespace DiffProject.Controllers
 
         public IActionResult newtv()
         {
-            return View();
+            var v = "vinay";
+            return Content(v);
         }
     }
 }
